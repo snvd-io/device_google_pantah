@@ -294,7 +294,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Increment the SVN for any official public releases
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.vendor.build.svn=31
+    ro.vendor.build.svn=32
 
 # DCK properties based on target
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -335,7 +335,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Vibrator HAL
 ACTUATOR_MODEL := luxshare_ict_081545
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.vendor.vibrator.hal.chirp.enabled=1 \
+    persist.vendor.vibrator.hal.chirp.enabled=0 \
     ro.vendor.vibrator.hal.device.mass=0.195 \
     ro.vendor.vibrator.hal.loc.coeff=2.65
 # Keyboard bottom padding in dp for portrait mode and height ratio
